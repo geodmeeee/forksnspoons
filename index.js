@@ -86,6 +86,7 @@ const games=[
 {title:"Retro Bowl",img:"images/retro bowl.jpeg",url:"games/Retro Bowl/index.html",cat:"sports"},
 {title:"Smash Karts",img:"images/Smash Karts.jpg",url:"games/Smash Karts/index.html",cat:"driving,multiplayer"},
 {title:"Snow Rider 3D",img:"images/Snow Rider 3D.png",url:"games/Snow Rider 3D/index.html",cat:"driving"},
+{title:"Space Waces",img:"images/Space Waves.png",url:"games/Space Waves/index.html",cat:"rythm"},
 {title:"Spacebar Clicker",img:"images/Spacebar Clicker.png",url:"games/Spacebar Clicker/index.html",cat:"clicker"},
 {title:"Super Mario 64",img:"images/mayrio.jpeg",url:"games/Super Mario 64/index.html",cat:"platformer"},
 {title:"Super Smash Bros",img:"images/super smash bros.jpg",url:"games/Super Smash Bros/index.html",cat:"fighting"},
