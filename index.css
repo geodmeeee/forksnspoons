@@ -22,6 +22,159 @@ text-rendering:optimizeLegibility;
 -webkit-text-rendering:optimizeLegibility;
 }
 
+/* OPENING PAGE STYLES */
+
+.opening-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+padding: 40px 20px;
+background: linear-gradient(135deg, #0e1016 0%, #1a1f2e 100%);
+}
+
+.opening-header {
+text-align: center;
+margin-bottom: 60px;
+animation: slideDown 0.8s ease-out;
+}
+
+.site-title {
+font-size: 4rem;
+margin: 0;
+background: linear-gradient(135deg, #7c5cff, #a78bfa);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+font-weight: 800;
+letter-spacing: -2px;
+}
+
+.site-subtitle {
+font-size: 1.2rem;
+color: #a0aec0;
+margin: 10px 0 0 0;
+font-weight: 300;
+}
+
+.welcome-text {
+font-size: 1.1rem;
+color: #cbd5e0;
+margin-bottom: 50px;
+animation: slideUp 0.8s ease-out 0.1s both;
+}
+
+.opening-content {
+width: 100%;
+max-width: 1000px;
+animation: fadeIn 1s ease-out;
+}
+
+.nav-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 30px;
+margin-top: 40px;
+}
+
+.nav-card {
+background: var(--card);
+border: 2px solid rgba(124, 92, 255, 0.2);
+border-radius: var(--radius);
+padding: 40px 30px;
+text-align: center;
+cursor: pointer;
+transition: all 0.3s ease;
+transform: translateY(0);
+}
+
+.nav-card:hover {
+border-color: var(--accent);
+transform: translateY(-10px);
+box-shadow: 0 20px 40px rgba(124, 92, 255, 0.3), 0 0 40px var(--glow);
+}
+
+.nav-icon {
+font-size: 3.5rem;
+margin-bottom: 20px;
+display: block;
+transition: transform 0.3s ease;
+}
+
+.nav-card:hover .nav-icon {
+transform: scale(1.1) rotate(10deg);
+}
+
+.nav-card h2 {
+margin: 20px 0 15px 0;
+font-size: 1.8rem;
+color: var(--text);
+}
+
+.nav-card p {
+color: #a0aec0;
+font-size: 0.95rem;
+line-height: 1.6;
+margin: 0;
+}
+
+.main-content {
+display: block;
+}
+
+.main-content.hidden {
+display: none;
+}
+
+@keyframes slideDown {
+from {
+opacity: 0;
+transform: translateY(-30px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+@keyframes slideUp {
+from {
+opacity: 0;
+transform: translateY(30px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+@keyframes fadeIn {
+from {
+opacity: 0;
+}
+to {
+opacity: 1;
+}
+}
+
+.back-btn {
+background: var(--card);
+border: 2px solid var(--accent);
+color: var(--accent);
+padding: 8px 16px;
+border-radius: 8px;
+cursor: pointer;
+font-size: 0.95rem;
+transition: all 0.3s ease;
+font-weight: 600;
+}
+
+.back-btn:hover {
+background: var(--accent);
+color: var(--bg);
+}
+
 /* BACKGROUND - Optimized to run only on hover */
 
 #bg{

@@ -4,7 +4,7 @@ let cat="all"
 let searchTimeout
 
 // Cache DOM elements for better performance
-let grid,filterMenu,search,frame,player,secret,gamesTab,moviesTab,tooltip
+let grid,filterMenu,search,frame,player,secret,tooltip,openingPage,mainContent
 
 function initializeDOMReferences(){
 grid=document.getElementById("grid")
@@ -13,10 +13,23 @@ search=document.getElementById("search")
 frame=document.getElementById("frame")
 player=document.getElementById("player")
 secret=document.getElementById("secret")
-gamesTab=document.getElementById("gamesTab")
-moviesTab=document.getElementById("moviesTab")
 userCountDisplay=document.getElementById("userCount")
 tooltip=document.getElementById("tooltip")
+openingPage=document.getElementById("openingPage")
+mainContent=document.getElementById("mainContent")
+}
+
+// Navigation functions
+function goToHome(){
+openingPage.style.display="flex"
+mainContent.classList.add("hidden")
+player.style.display="none"
+}
+
+function goToTab(tabName){
+openingPage.style.display="none"
+mainContent.classList.remove("hidden")
+switchTab(tabName)
 }
 
 const gameCategories=["all","puzzle","fighting","shooter","driving","platformer","sports","horror","multiplayer","sandbox","rhythm","simulator","runner","clicker","rpg","survival","open world","arcade","action"]
@@ -115,35 +128,20 @@ function switchTab(t){
 previousTab=tab
 tab=t
 cat="all"
-gamesTab.classList.remove("active")
-moviesTab.classList.remove("active")
-document.getElementById(t+"Tab").classList.add("active")
 const credits=document.getElementById("credits")
 if(t==="movies"){
 credits.classList.add("show")
 }else{
 credits.classList.remove("show")
 }
+
+if(t!=="extras"){
 loadCategories()
+}else{
+filterMenu.innerHTML=""
+}
 
-// Determine slide direction
-const isMovingRight=previousTab==="games"&&t==="movies"
-const outClass=isMovingRight?"slide-out-left":"slide-out-right"
-const inClass=isMovingRight?"slide-in-right":"slide-in-left"
-
-// Add slide-out animation
-grid.classList.add(outClass)
-
-// Wait for animation to complete, then render new content
-setTimeout(()=>{
-grid.classList.remove(outClass)
-grid.classList.add(inClass)
 render()
-// Remove animation class after it completes
-setTimeout(()=>{
-grid.classList.remove(inClass)
-},400)
-},400)
 }
 
 function loadCategories(){
@@ -169,6 +167,17 @@ toggleFilter()
 }
 
 function render(){
+if(tab==="extras"){
+grid.innerHTML=`
+<div style="grid-column: 1/-1; text-align: center; padding: 60px 20px;">
+<h2 style="color: var(--accent); margin-top: 0;">Coming Soon!</h2>
+<p style="color: var(--text); font-size: 1.1rem;">More exclusive extras are being prepared.</p>
+<p style="color: #a0aec0;">Check back soon for bonus content and special features.</p>
+</div>
+`
+return
+}
+
 let list=tab=="games"?games:movies
 let s=search.value.toLowerCase()
 grid.innerHTML=""
