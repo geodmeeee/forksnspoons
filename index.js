@@ -49,6 +49,7 @@ const games=[
 {title:"Call Of Duty Black Ops",img:"images/Call Of Duty Black Ops.png",url:"games/Call Of Duty Black Ops/index.html",cat:"shooter"},
 {title:"Candy Crush",img:"images/Candy Crush.png",url:"games/Candy Crush/index.html",cat:"puzzle"},
 {title:"Celeste",img:"images/Celeste.jpeg",url:"games/Celeste/index.html",cat:"platformer"},
+{title:"Core Ball",img:"images/Core Ball.png",url:"games/Core Ball/index.html",cat:"arcade"},
 {title:"Countmaster Stickman Games",img:"images/Countmaster Stickman Games.png",url:"games/Countmaster stickman games/index.html",cat:"runner"},
 {title:"Doblox",img:"images/Doblox.png",url:"games/Doblox/index.html",cat:"multiplayer"},
 {title:"Doge Miner",img:"images/Doge Miner.png",url:"games/Doge Miner/index.html",cat:"Clicker"},
