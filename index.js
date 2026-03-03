@@ -171,8 +171,8 @@ if(tab==="extras"){
 grid.innerHTML=`
 <div style="grid-column: 1/-1; text-align: center; padding: 60px 20px;">
 <h2 style="color: var(--accent); margin-top: 0;">Coming Soon!</h2>
-<p style="color: var(--text); font-size: 1.1rem;">More exclusive extras are being prepared.</p>
-<p style="color: #a0aec0;">Check back soon for bonus content and special features.</p>
+<p style="color: var(--text); font-size: 1.1rem;">chances i add anything here are near zero</p>
+<p style="color: #a0aec0;">Check back soon tho i might change my mind</p>
 </div>
 `
 return
