@@ -78,6 +78,7 @@ const games=[
 {title:"Dragon Ball Z legacy of goku",img:"images/Dragon Ball Z legacy of goku.png",url:"games/Dragon Ball Z legacy of goku/index.html",cat:"rpg"},
 {title:"Drive Mad",img:"images/Drive Mad.png",url:"games/Drive Mad/index.html",cat:"driving"},
 {title:"Eagle Ride",img:"images/eagle ride.png",url:"games/Eagle Ride/index.html",cat:"runner"},
+{title:"Elastic Face",img:"images/Elastic Face.png",url:"games/Elastic Face/index.html",cat:"simulator"},
 {title:"Escape Road",img:"images/Escape road.png",url:"games/Escape Road/index.html",cat:"driving"},
 {title:"Escape Road 2",img:"images/escape road 2.jpeg",url:"games/Escape Road 2/index.html",cat:"driving"},
 {title:"Five Nights at Freddys",img:"images/five nights at freddys.png",url:"games/Five Nights at Freddys/index.html",cat:"horror"},
