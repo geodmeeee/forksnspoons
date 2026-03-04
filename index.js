@@ -106,6 +106,7 @@ const games=[
 {title:"Kirby 64",img:"images/Kirby 64.png",url:"games/Kirby 64/index.html",cat:"platformer"},
 {title:"Kour.io",img:"images/Kourio.png",url:"games/Kour.io/index.html",cat:"shooter,multiplayer"},
 {title:"Mario Kart 64",img:"images/Mario Kart 64.png",url:"games/Mario Kart 64/index.html",cat:"driving"},
+{title:"Minecraft 1.8.8",img:"images/Minecraft 1.8.8.png",url:"games/Minecraft 1.8.8/index.html",cat:"sandbox"},
 {title:"Monkey Mart",img:"images/Monkey Mart.png",url:"games/Monkey Mart/index.html",cat:"simulator"},
 {title:"Newgrounds Rumble",img:"images/Newgrounds Rumble.png",url:"games/Newgrounds Rumble/index.html",cat:"fighting"},
 {title:"Nubbys Number Factory",img:"images/Nubbys Number Factory.png",url:"games/Nubbys Number Factory/index.html",cat:"puzzle"},
