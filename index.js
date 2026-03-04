@@ -109,6 +109,7 @@ const games=[
 {title:"Monkey Mart",img:"images/Monkey Mart.png",url:"games/Monkey Mart/index.html",cat:"simulator"},
 {title:"Newgrounds Rumble",img:"images/Newgrounds Rumble.png",url:"games/Newgrounds Rumble/index.html",cat:"fighting"},
 {title:"Nubbys Number Factory",img:"images/Nubbys Number Factory.png",url:"games/Nubbys Number Factory/index.html",cat:"puzzle"},
+{title:"Parking Fury",img:"images/Parking Fury.png",url:"games/Parking Fury/index.html",cat:"puzzle"},
 {title:"Peggle",img:"images/peggle.jpg",url:"games/Peggle/index.html",cat:"puzzle"},
 {title:"Polytrack",img:"images/polytrack.jpeg",url:"games/Polytrack/index.html",cat:"driving"},
 {title:"R.E.P.O",img:"images/REPO.png",url:"games/R.E.P.O/index.html",cat:"horror"},
