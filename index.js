@@ -81,6 +81,7 @@ const games=[
 {title:"Drift Boss",img:"images/Drift Boss.png",url:"games/Drift Boss/index.html",cat:"arcade"},
 {title:"Drive Mad",img:"images/Drive Mad.png",url:"games/Drive Mad/index.html",cat:"driving"},
 {title:"Eagle Ride",img:"images/eagle ride.png",url:"games/Eagle Ride/index.html",cat:"runner"},
+{title:"EarthBound",img:"images/EarthBound.png",url:"games/EarthBound/index.html",cat:"rpg"},
 {title:"Elastic Face",img:"images/Elastic Face.png",url:"games/Elastic Face/index.html",cat:"simulator"},
 {title:"Escape Road",img:"images/Escape road.png",url:"games/Escape Road/index.html",cat:"driving"},
 {title:"Escape Road 2",img:"images/escape road 2.jpeg",url:"games/Escape Road 2/index.html",cat:"driving"},
