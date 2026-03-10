@@ -161,6 +161,7 @@ const games=[
 {title:"Tom Clancys Rainbow Six",img:"images/Tom Clancys Rainbow Six.png",url:"games/Tom Clancys Rainbow Six/index.html",cat:"runner"},
 {title:"Ultrakill",img:"images/Ultrakill.png",url:"games/ultrakill/index.html",cat:"shooter"},
 {title:"Vex 4",img:"images/Vex 4.png",url:"games/Vex 4/index.html",cat:"shooter"},
+{title:"Vex 6",img:"images/Vex 6.png",url:"games/Vex 6/index.html",cat:"shooter"},
 {title:"Vex 7",img:"images/Vex 7.png",url:"games/Vex 7/index.html",cat:"shooter"},
 {title:"Wave Race 64",img:"images/Wave Race 64.png",url:"games/Wave Race 64/index.html",cat:"driving"},
 {title:"We Become What We Behold",img:"images/We Become What We Behold.png",url:"games/We Become What We Behold/index.html",cat:"simulator"},
