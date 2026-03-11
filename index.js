@@ -32,7 +32,7 @@ mainContent.classList.remove("hidden")
 switchTab(tabName)
 }
 
-const gameCategories=["all","puzzle","fighting","shooter","driving","platformer","sports","horror","multiplayer","sandbox","rhythm","simulator","runner","clicker","rpg","survival","open world","arcade","action"]
+const gameCategories=["all","HTML5","Flash","N64","DS"]
 const movieCategories=["all","comedy","horror","sci-fi"]
 
 // MacBook-specific optimizations
@@ -47,26 +47,25 @@ document.documentElement.classList.add("macos-optimized")
 }
 
 const games=[
-{title:"1v1.lol",img:"images/1v1.lol.png",url:"games/1v1.lol/index.html",cat:"shooter"},
-{title:"2 minute football",img:"images/2 minute football.png",url:"games/2 minute football/index.html",cat:"sports"},
-{title:"3Dash",img:"images/3Dash.png",url:"games/3Dash/index.html",cat:"rhythm"},
-{title:"12 Mini Battles",img:"images/12 Mini Battles.png",url:"games/12 Mini Battles/index.html",cat:"rhythm"},
-{title:"Agar.io Lite",img:"images/Agar.io Lite.png",url:"games/Agar.io Lite/index.html",cat:"rhythm"},
-{title:"Age of War",img:"images/Age of War.png",url:"games/Age of War/index.html",cat:"strategy"},
-{title:"Age of War 2",img:"images/Age of War 2.png",url:"games/Age of War 2/index.html",cat:"strategy"},
-{title:"Apple Worm",img:"images/Apple Worm.png",url:"games/Apple Worm/index.html",cat:"puzzle"},
-{title:"Awesome Tanks 2",img:"images/Awesome Tanks 2.png",url:"games/Awesome Tanks 2/index.html",cat:"strategy"},
-{title:"Bad Monday Simulator",img:"images/Bad Monday Simulator.png",url:"games/Bad Monday Simulator/index.html",cat:"fighting"},
-{title:"Baseball Bros",img:"images/BaseBall Bros.png",url:"games/BaseBall Bros/index.html",cat:"sports"},
-{title:"Bad Time Simulator",img:"images/Sans.jpeg",url:"games/Bad Time Simulator/index.html",cat:"fighting"},
-{title:"Bitlife",img:"images/Bitlife.png",url:"games/Bitlife/index.html",cat:"simulator"},
-{title:"Bloxorz",img:"images/Bloxorz.png",url:"games/Bloxorz/index.html",cat:"puzzle"},
-{title:"Bridge Race",img:"images/Bridge Race.png",url:"games/Bridge Race/index.html",cat:"runner"},
-{title:"Build Now.gg",img:"images/Build Nowgg.png",url:"games/Build Now.gg/index.html",cat:"shooter"},
-{title:"Burgen Truck 201X",img:"images/Burgen Truck 201x.png",url:"games/Burgen Truck 201X/index.html",cat:"driving"},
-{title:"Call Of Duty Black Ops",img:"images/Call Of Duty Black Ops.png",url:"games/Call Of Duty Black Ops/index.html",cat:"shooter"},
-{title:"Candy Crush",img:"images/Candy Crush.png",url:"games/Candy Crush/index.html",cat:"puzzle"},
-{title:"Celeste",img:"images/Celeste.jpeg",url:"games/Celeste/index.html",cat:"platformer"},
+{title:"1v1.lol",img:"images/1v1.lol.png",url:"games/1v1.lol/index.html",cat:"HTML5"},
+{title:"2 minute football",img:"images/2 minute football.png",url:"games/2 minute football/index.html",cat:"HTML5"},
+{title:"3Dash",img:"images/3Dash.png",url:"games/3Dash/index.html",cat:"HTML5"},
+{title:"12 Mini Battles",img:"images/12 Mini Battles.png",url:"games/12 Mini Battles/index.html",cat:"HTML5"},
+{title:"Agar.io Lite",img:"images/Agar.io Lite.png",url:"games/Agar.io Lite/index.html",cat:"HTML5"},
+{title:"Age of War",img:"images/Age of War.png",url:"games/Age of War/index.html",cat:"Flash"},
+{title:"Age of War 2",img:"images/Age of War 2.png",url:"games/Age of War 2/index.html",cat:"Flash"},
+{title:"Apple Worm",img:"images/Apple Worm.png",url:"games/Apple Worm/index.html",cat:"Flash"},
+{title:"Awesome Tanks 2",img:"images/Awesome Tanks 2.png",url:"games/Awesome Tanks 2/index.html",cat:"HTML5"},
+{title:"Bad Monday Simulator",img:"images/Bad Monday Simulator.png",url:"games/Bad Monday Simulator/index.html",cat:"HTML5"},
+{title:"Baseball Bros",img:"images/BaseBall Bros.png",url:"games/BaseBall Bros/index.html",cat:"HTML5"},
+{title:"Bad Time Simulator",img:"images/Sans.jpeg",url:"games/Bad Time Simulator/index.html",cat:"HTML5"},
+{title:"Bitlife",img:"images/Bitlife.png",url:"games/Bitlife/index.html",cat:"HTML5"},
+{title:"Bloxorz",img:"images/Bloxorz.png",url:"games/Bloxorz/index.html",cat:"Flash"},
+{title:"Bridge Race",img:"images/Bridge Race.png",url:"games/Bridge Race/index.html",cat:"HTML5"},
+{title:"Burgen Truck 201X",img:"images/Burgen Truck 201x.png",url:"games/Burgen Truck 201X/index.html",cat:"HTML5"},
+{title:"Call Of Duty Black Ops",img:"images/Call Of Duty Black Ops.png",url:"games/Call Of Duty Black Ops/index.html",cat:"DS"},
+{title:"Candy Crush",img:"images/Candy Crush.png",url:"games/Candy Crush/index.html",cat:"HTML5"},
+{title:"Celeste",img:"images/Celeste.jpeg",url:"games/Celeste/index.html",cat:"HTML5"},
 {title:"Color Water Sort 3D",img:"images/Color Water Sort 3D.jpeg",url:"games/Color Water Sort 3D/index.html",cat:"puzzle"},
 {title:"Core Ball",img:"images/Core Ball.png",url:"games/Core Ball/index.html",cat:"arcade"},
 {title:"Countmaster Stickman Games",img:"images/Countmaster Stickman Games.png",url:"games/Countmaster stickman games/index.html",cat:"runner"},
@@ -126,6 +125,8 @@ const games=[
 {title:"Lucky Blocks Obby",img:"images/Lucky Blocks Obby.png",url:"games/Lucky Blocks Obby/index.html",cat:"shooter,multiplayer"},
 {title:"Madden Football 64",img:"images/Madden Football 64.png",url:"games/Madden Football 64/index.html",cat:"shooter,multiplayer"},
 {title:"Madden NFL 2000",img:"images/Madden NFL 2000.png",url:"games/Madden NFL 2000/index.html",cat:"shooter,multiplayer"},
+{title:"Madden NFL 2001",img:"images/Madden NFL 2001.png",url:"games/Madden NFL 2001/index.html",cat:"N64"},
+{title:"Madden NFL 2002",img:"images/Madden NFL 2002.png",url:"games/Madden NFL 2002/index.html",cat:"N64"},
 {title:"Mario Kart 64",img:"images/Mario Kart 64.png",url:"games/Mario Kart 64/index.html",cat:"driving"},
 {title:"Mario Kart DS",img:"images/Mario Kart DS.png",url:"games/Mario Kart DS/index.html",cat:"driving"},
 {title:"Mario Kart Super Circuit",img:"images/Mario Kart Super Circuit.png",url:"games/Mario Kart Super Circuit/index.html",cat:"driving"},
