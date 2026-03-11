@@ -123,6 +123,7 @@ const games=[
 {title:"Lego Indiana Jones The Original Adventures",img:"images/Lego Indiana Jones.png",url:"games/Lego Indiana Jones/index.html",cat:"shooter,multiplayer"},
 {title:"Lucky Blocks Obby",img:"images/Lucky Blocks Obby.png",url:"games/Lucky Blocks Obby/index.html",cat:"shooter,multiplayer"},
 {title:"Madden Football 64",img:"images/Madden Football 64.png",url:"games/Madden Football 64/index.html",cat:"shooter,multiplayer"},
+{title:"Madden NFL 2000",img:"images/Madden NFL 2000.png",url:"games/Madden NFL 2000/index.html",cat:"shooter,multiplayer"},
 {title:"Mario Kart 64",img:"images/Mario Kart 64.png",url:"games/Mario Kart 64/index.html",cat:"driving"},
 {title:"Mario Kart DS",img:"images/Mario Kart DS.png",url:"games/Mario Kart DS/index.html",cat:"driving"},
 {title:"Mario Kart Super Circuit",img:"images/Mario Kart Super Circuit.png",url:"games/Mario Kart Super Circuit/index.html",cat:"driving"},
