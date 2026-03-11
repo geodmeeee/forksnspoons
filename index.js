@@ -77,6 +77,7 @@ const games=[
 {title:"Doge Miner",img:"images/Doge Miner.png",url:"games/Doge Miner/index.html",cat:"Clicker"},
 {title:"Doge Miner 2",img:"images/Doge Miner 2.png",url:"games/Doge Miner 2/index.html",cat:"Clicker"},
 {title:"Donkey Kong 64",img:"images/Donkey Kong 64.png",url:"games/Donkey Kong 64/index.html",cat:"Platformer"},
+{title:"Doom",img:"images/Doom.png",url:"games/Doom/index.html",cat:"Platformer"},
 {title:"Doom 64",img:"images/Doom 64.png",url:"games/Doom 64/index.html",cat:"shooter"},
 {title:"Douchebag Life",img:"images/DBL.png",url:"games/Douchebag life/index.html",cat:"simulator"},
 {title:"Dragon Ball Z legacy of goku",img:"images/Dragon Ball Z legacy of goku.png",url:"games/Dragon Ball Z legacy of goku/index.html",cat:"rpg"},
