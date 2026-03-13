@@ -60,6 +60,7 @@ const games=[
 {title:"Bad Monday Simulator",img:"images/Bad Monday Simulator.png",url:"games/Bad Monday Simulator/index.html",cat:"all"},
 {title:"Baseball Bros",img:"images/BaseBall Bros.png",url:"games/BaseBall Bros/index.html",cat:"sports"},
 {title:"Basket Random",img:"images/Basket Random.png",url:"games/Basket Random/index.html",cat:"sports"},
+{title:"Bendy And The Ink Machine",img:"images/Bendy And The Ink Machine.png",url:"games/Bendy And The Ink Machine/index.html",cat:"sports"},
 {title:"Bad Time Simulator",img:"images/Sans.jpeg",url:"games/Bad Time Simulator/index.html",cat:"all"},
 {title:"Bitlife",img:"images/Bitlife.png",url:"games/Bitlife/index.html",cat:"all"},
 {title:"Bloxorz",img:"images/Bloxorz.png",url:"games/Bloxorz/index.html",cat:"puzzle"},
