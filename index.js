@@ -84,6 +84,7 @@ const games=[
 {title:"Dragon Ball Z legacy of goku",img:"images/Dragon Ball Z legacy of goku.png",url:"games/Dragon Ball Z legacy of goku/index.html",cat:"all"},
 {title:"Draw Climber",img:"images/Draw Climber.png",url:"games/Draw Climber/index.html",cat:"all"},
 {title:"Drift Boss",img:"images/Drift Boss.png",url:"games/Drift Boss/index.html",cat:"arcade"},
+{title:"Drift Hunters",img:"images/Drift Hunters.png",url:"games/Drift Hunters/index.html",cat:"arcade"},
 {title:"Drive Mad",img:"images/Drive Mad.png",url:"games/Drive Mad/index.html",cat:"driving"},
 {title:"Eagle Ride",img:"images/eagle ride.png",url:"games/Eagle Ride/index.html",cat:"runner"},
 {title:"EarthBound",img:"images/EarthBound.png",url:"games/EarthBound/index.html",cat:"rpg"},
