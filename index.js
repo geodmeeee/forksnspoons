@@ -115,6 +115,7 @@ const games=[
 {title:"Grand Theft Auto",img:"images/grand theft auto.png",url:"games/Grand Theft Auto/index.html",cat:"shooter,driving,open world"},
 {title:"Grand Theft Auto 2",img:"images/GTA2.png",url:"games/Grand Theft Auto 2/index.html",cat:"shooter,driving,open world"},
 {title:"Grand Theft Auto Vice City",img:"images/grand theft auto vice city.png",url:"games/grand theft auto vice city/index.html",cat:"shooter,driving,open world"},
+{title:"Granny",img:"images/Granny.png",url:"games/Granny/index.html",cat:"horror"},
 {title:"Growden",img:"images/Grow a Garden.png",url:"games/Grow A Garden/index.html",cat:"shooter,driving,open world"},
 {title:"Half Life",img:"images/Half Life.png",url:"games/Half Life/index.html",cat:"shooter"},
 {title:"Handshakes",img:"images/Handshakes.png",url:"games/Handshakes/index.html",cat:"puzzle"},
