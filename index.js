@@ -53,6 +53,7 @@ const games=[
 {title:"3Dash",img:"images/3Dash.png",url:"games/3Dash/index.html",cat:"all"},
 {title:"12 Mini Battles",img:"images/12 Mini Battles.png",url:"games/12 Mini Battles/index.html",cat:"Multiplayer"},
 {title:"99Balls",img:"images/99Balls.png",url:"games/99Balls/index.html",cat:"Multiplayer"},
+{title:"A Small World Cup",img:"images/A Small World Cup.png",url:"games/A Small World Cup/index.html",cat:"Multiplayer"},
 {title:"Adventure Capitalist",img:"images/Adventure Capitalist.png",url:"games/Adventure Capitalist/index.html",cat:"Multiplayer"},
 {title:"Agar.io Lite",img:"images/Agar.io Lite.png",url:"games/Agar.io Lite/index.html",cat:"all"},
 {title:"Age of War",img:"images/Age of War.png",url:"games/Age of War/index.html",cat:"all"},
