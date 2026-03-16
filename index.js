@@ -71,6 +71,7 @@ const games=[
 {title:"Burgen Truck 201X",img:"images/Burgen Truck 201x.png",url:"games/Burgen Truck 201X/index.html",cat:"driving"},
 {title:"Call Of Duty Black Ops",img:"images/Call Of Duty Black Ops.png",url:"games/Call Of Duty Black Ops/index.html",cat:"shooter"},
 {title:"Candy Crush",img:"images/Candy Crush.png",url:"games/Candy Crush/index.html",cat:"puzzle"},
+{title:"CapyBara Clicker",img:"images/CapyBara Clicker.png",url:"games/CapyBara Clicker/index.html",cat:"puzzle"},
 {title:"Celeste",img:"images/Celeste.jpeg",url:"games/Celeste/index.html",cat:"platformer"},
 {title:"Cluster Rush",img:"images/Cluster Rush.png",url:"games/Cluster Rush/index.html",cat:"platformer"},
 {title:"Color Water Sort 3D",img:"images/Color Water Sort 3D.jpeg",url:"games/Color Water Sort 3D/index.html",cat:"puzzle"},
