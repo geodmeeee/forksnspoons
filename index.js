@@ -32,7 +32,7 @@ mainContent.classList.remove("hidden")
 switchTab(tabName)
 }
 
-const gameCategories=["all","Shooter","Platformer","driving","fighting","sports","multiplayer","puzzle"]
+const gameCategories=["all","Shooter"]
 const movieCategories=["all","comedy","horror","sci-fi"]
 
 // MacBook-specific optimizations
