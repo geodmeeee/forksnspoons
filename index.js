@@ -47,10 +47,10 @@ document.documentElement.classList.add("macos-optimized")
 }
 
 const games=[
-{title:"1 on 1 Soccar",img:"images/1 on 1 Soccar.png",url:"games/1 on 1 Soccar/index.html",cat:"Shooter"},
-{title:"1 on 1 Tennis",img:"images/1 on 1 Tennis.png",url:"games/1 on 1 Tennis/index.html",cat:"Shooter"},       
-{title:"1v1.lol",img:"images/1v1.lol.png",url:"games/1v1.lol/index.html",cat:"Shooter"},
-{title:"2 minute football",img:"images/2 minute football.png",url:"games/2 minute football/index.html",cat:"Sports"},
+{title:"1 on 1 Soccar",img:"images/1 on 1 Soccar.png",url:"games/1 on 1 Soccar/index.html",cat:"All"},
+{title:"1 on 1 Tennis",img:"images/1 on 1 Tennis.png",url:"games/1 on 1 Tennis/index.html",cat:"All"},       
+{title:"1v1.lol",img:"images/1v1.lol.png",url:"games/1v1.lol/index.html",cat:"All"},
+{title:"2 minute football",img:"images/2 minute football.png",url:"games/2 minute football/index.html",cat:"All"},
 {title:"3Dash",img:"images/3Dash.png",url:"games/3Dash/index.html",cat:"all"},
 {title:"12 Mini Battles",img:"images/12 Mini Battles.png",url:"games/12 Mini Battles/index.html",cat:"Multiplayer"},
 {title:"60 Seconds Burger Run",img:"images/60 Seconds Burger Run.png",url:"games/60 Seconds Burger Run/index.html",cat:"Multiplayer"},
