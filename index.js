@@ -217,11 +217,11 @@ const games=[
 {title:"Vex 4",img:"images/Vex 4.png",url:"games/Vex 4/index.html",cat:"shooter"},
 {title:"Vex 6",img:"images/Vex 6.png",url:"games/Vex 6/index.html",cat:"shooter"},
 {title:"Vex 7",img:"images/Vex 7.png",url:"games/Vex 7/index.html",cat:"shooter"},
-{title:"Wave Race 64",img:"images/Wave Race 64.png",url:"games/Wave Race 64/index.html",cat:"driving"},
-{title:"We Become What We Behold",img:"images/We Become What We Behold.png",url:"games/We Become What We Behold/index.html",cat:"simulator"},
-{title:"Web Fishing",img:"images/Web Fishing.png",url:"games/Web Fishing/index.html",cat:"simulator"},
-{title:"Wolfenstein 3D",img:"images/Wolfenstein 3D.png",url:"games/Wolfenstein 3D/index.html",cat:"simulator"},
-{title:"You VS 100 Skibidi Toilets",img:"images/you vs 100 skibidi.png",url:"games/You vs 100 Skibidi/index.html",cat:"shooter"}
+{title:"Wave Race 64",img:"images/Wave Race 64.png",url:"games/Wave Race 64/index.html",cat:"all"},
+{title:"We Become What We Behold",img:"images/We Become What We Behold.png",url:"games/We Become What We Behold/index.html",cat:"all"},
+{title:"Web Fishing",img:"images/Web Fishing.png",url:"games/Web Fishing/index.html",cat:"all"},
+{title:"Worlds Hardest Game",img:"images/Worlds Hardest Game.png",url:"games/Worlds Hardest Game/index.html",cat:"all"},
+{title:"You VS 100 Skibidi Toilets",img:"images/you vs 100 skibidi.png",url:"games/You vs 100 Skibidi/index.html",cat:"all"}
 ]
 
 const movies=[
