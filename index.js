@@ -32,7 +32,7 @@ mainContent.classList.remove("hidden")
 switchTab(tabName)
 }
 
-const gameCategories=["all","sports","multiplayer","platformer"]
+const gameCategories=["all","sports","multiplayer","platformer","puzzle"]
 const movieCategories=["all","comedy","horror","sci-fi"]
 
 // MacBook-specific optimizations
@@ -51,7 +51,7 @@ const games=[
 {title:"1 on 1 Tennis",img:"images/1 on 1 Tennis.png",url:"games/1 on 1 Tennis/index.html",cat:"sports"},       
 {title:"1v1.lol",img:"images/1v1.lol.png",url:"games/1v1.lol/index.html",cat:"shooter"},
 {title:"2 Minute Football",img:"images/2 minute football.png",url:"games/2 minute football/index.html",cat:"sports"},
-{title:"3 Pandas",img:"images/3 Pandas.png",url:"games/3 Pandas/index.html",cat:"all"},
+{title:"3 Pandas",img:"images/3 Pandas.png",url:"games/3 Pandas/index.html",cat:"puzzle"},
 {title:"3Dash",img:"images/3Dash.png",url:"games/3Dash/index.html",cat:"platformer"},
 {title:"12 Mini Battles",img:"images/12 Mini Battles.png",url:"games/12 Mini Battles/index.html",cat:"multiplayer"},
 {title:"60 Seconds Burger Run",img:"images/60 Seconds Burger Run.png",url:"games/60 Seconds Burger Run/index.html",cat:"platformer"},
@@ -103,8 +103,8 @@ const games=[
 {title:"Douchebag Life",img:"images/DBL.png",url:"games/Douchebag life/index.html",cat:"all"},
 {title:"Dragon Ball Z legacy of goku",img:"images/Dragon Ball Z legacy of goku.png",url:"games/Dragon Ball Z legacy of goku/index.html",cat:"all"},
 {title:"Draw Climber",img:"images/Draw Climber.png",url:"games/Draw Climber/index.html",cat:"all"},
-{title:"Drift Boss",img:"images/Drift Boss.png",url:"games/Drift Boss/index.html",cat:"arcade"},
-{title:"Drift Hunters",img:"images/Drift Hunters.png",url:"games/Drift Hunters/index.html",cat:"arcade"},
+{title:"Drift Boss",img:"images/Drift Boss.png",url:"games/Drift Boss/index.html",cat:"all"},
+{title:"Drift Hunters",img:"images/Drift Hunters.png",url:"games/Drift Hunters/index.html",cat:"all"},
 {title:"Drive Mad",img:"images/Drive Mad.png",url:"games/Drive Mad/index.html",cat:"driving"},
 {title:"Eagle Ride",img:"images/eagle ride.png",url:"games/Eagle Ride/index.html",cat:"all"},
 {title:"EarthBound",img:"images/EarthBound.png",url:"games/EarthBound/index.html",cat:"all"},
@@ -113,12 +113,12 @@ const games=[
 {title:"Escape Road 2",img:"images/escape road 2.jpeg",url:"games/Escape Road 2/index.html",cat:"driving"},
 {title:"Five Nights At Epsteins",img:"images/Five Nights At Epsteins.png",url:"games/Five Nights At Epsteins/index.html",cat:"horror"},
 {title:"Five Nights at Freddys",img:"images/five nights at freddys.png",url:"games/Five Nights at Freddys/index.html",cat:"horror"},
-{title:"Five Nights at Freddys 2",img:"images/five nights at freddys 2.png",url:"games/Five Nights at Freddys 2/index.html",cat:"horror"},
-{title:"Five Nights at Freddys 3",img:"images/five nights at freddys 3.png",url:"games/Five Nights at Freddys 3/index.html",cat:"horror"},
-{title:"Portal The Flash Verison",img:"images/Flash Portal.png",url:"games/Flash Portal/index.html",cat:"horror"},
+{title:"Five Nights at Freddys 2",img:"images/five nights at freddys 2.png",url:"games/Five Nights at Freddys 2/index.html",cat:"all"},
+{title:"Five Nights at Freddys 3",img:"images/five nights at freddys 3.png",url:"games/Five Nights at Freddys 3/index.html",cat:"all"},
+{title:"Portal The Flash Verison",img:"images/Flash Portal.png",url:"games/Flash Portal/index.html",cat:"all"},
 {title:"Fluidism",img:"images/Fluidism.png",url:"games/Fluidism/index.html",cat:"HTML5"},
 {title:"Fortzone",img:"images/Fortzone.png",url:"games/Fortzone/index.html",cat:"shooter"},
-{title:"Friday Night Funkin",img:"images/Friday Night Funkin.png",url:"games/friday night funkin/index.html",cat:"rhythm"},
+{title:"Friday Night Funkin",img:"images/Friday Night Funkin.png",url:"games/friday night funkin/index.html",cat:"all"},
 {title:"Fruit Ninja",img:"images/Fruit Ninja.png",url:"games/Fruit Ninja/index.html",cat:"arcade"},
 {title:"Gangsta Bean",img:"images/Gangsta Bean.png",url:"games/Gangsta Bean/index.html",cat:"fighting"},
 {title:"Geometry Dash",img:"images/Geometry dash.png",url:"games/Geometry Dash/index.html",cat:"rhythm"},
