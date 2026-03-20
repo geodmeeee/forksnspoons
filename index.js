@@ -32,7 +32,7 @@ mainContent.classList.remove("hidden")
 switchTab(tabName)
 }
 
-const gameCategories=["all","clicker","multiplayer"]
+const gameCategories=["all","flash"]
 const movieCategories=["all","comedy","horror","sci-fi"]
 
 // MacBook-specific optimizations
@@ -47,7 +47,7 @@ document.documentElement.classList.add("macos-optimized")
 }
 
 const games=[
-{title:"1 on 1 Soccar",img:"images/1 on 1 Soccar.png",url:"games/1 on 1 Soccar/index.html",cat:"all"},
+{title:"1 on 1 Soccar",img:"images/1 on 1 Soccar.png",url:"games/1 on 1 Soccar/index.html",cat:"flash"},
 {title:"1 on 1 Tennis",img:"images/1 on 1 Tennis.png",url:"games/1 on 1 Tennis/index.html",cat:"all"},       
 {title:"1v1.lol",img:"images/1v1.lol.png",url:"games/1v1.lol/index.html",cat:"all"},
 {title:"2 Minute Football",img:"images/2 minute football.png",url:"games/2 minute football/index.html",cat:"all"},
