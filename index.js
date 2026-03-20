@@ -32,7 +32,7 @@ mainContent.classList.remove("hidden")
 switchTab(tabName)
 }
 
-const gameCategories=["all","sports","multiplayer","platformer","puzzle","clicker","random","tower defense"]
+const gameCategories=["all","clicker","multiplayer"]
 const movieCategories=["all","comedy","horror","sci-fi"]
 
 // MacBook-specific optimizations
@@ -47,7 +47,7 @@ document.documentElement.classList.add("macos-optimized")
 }
 
 const games=[
-{title:"1 on 1 Soccar",img:"images/1 on 1 Soccar.png",url:"games/1 on 1 Soccar/index.html",cat:"all"},
+{title:"1 on 1 Soccar",img:"images/1 on 1 Soccar.png",url:"games/1 on 1 Soccar/index.html",cat:"sports,multiplayer"},
 {title:"1 on 1 Tennis",img:"images/1 on 1 Tennis.png",url:"games/1 on 1 Tennis/index.html",cat:"all"},       
 {title:"1v1.lol",img:"images/1v1.lol.png",url:"games/1v1.lol/index.html",cat:"all"},
 {title:"2 Minute Football",img:"images/2 minute football.png",url:"games/2 minute football/index.html",cat:"all"},
@@ -86,7 +86,7 @@ const games=[
 {title:"Celeste",img:"images/Celeste.jpeg",url:"games/Celeste/index.html",cat:"all"},
 {title:"Cluster Rush",img:"images/Cluster Rush.png",url:"games/Cluster Rush/index.html",cat:"all"},
 {title:"Color Water Sort 3D",img:"images/Color Water Sort 3D.jpeg",url:"games/Color Water Sort 3D/index.html",cat:"all"},
-{title:"Cookie Clicker",img:"images/Cookie Clicker.png",url:"games/Cookie Clicker/index.html",cat:"all"},
+{title:"Cookie Clicker",img:"images/Cookie Clicker.png",url:"games/Cookie Clicker/index.html",cat:"clicker"},
 {title:"Core Ball",img:"images/Core Ball.png",url:"games/Core Ball/index.html",cat:"all"},
 {title:"Countmaster Stickman Games",img:"images/Countmaster Stickman Games.png",url:"games/Countmaster stickman games/index.html",cat:"all"},
 {title:"Crazy Cattle 3D",img:"images/Crazy Cattle 3D.png",url:"games/Crazy Cattle 3D/index.html",cat:"all"},
