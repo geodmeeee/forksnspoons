@@ -242,7 +242,7 @@ const games=[
 ]
 
 const movies=[
-{title:"Movie 1",img:"images/movie1.png",url:"movies/m1.html",cat:"comedy"}
+{title:"Shrek",img:"images/Shrek.png",url:"movies/shrek/index.html",cat:"comedy"}
 ]
 
 function switchTab(t){
