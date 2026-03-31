@@ -184,7 +184,6 @@ const games=[
 {title:"Parking Fury",img:"images/Parking Fury.png",url:"games/Parking Fury/index.html",cat:"all"},
 {title:"Peggle",img:"images/Peggle.png",url:"games/Peggle/index.html",cat:"all"},
 {title:"Pixel Speedrun",img:"images/Pixel Speedrun.png",url:"games/Pixel Speedrun/index.html",cat:"all"},
-{title:"Plinko",img:"images/Plinko.png",url:"games/Plinko/index.html",cat:"all"},
 {title:"Pokemon Blue",img:"images/Pokemon Blue.png",url:"games/Pokemon Blue/index.html",cat:"all"},
 {title:"Pokemon Emerald",img:"images/Pokemon Emerald.png",url:"games/Pokemon Emerald/index.html",cat:"all"},
 {title:"Pokemon Red",img:"images/Pokemon Red.png",url:"games/Pokemon Red (GBA)/index.html",cat:"all"},
