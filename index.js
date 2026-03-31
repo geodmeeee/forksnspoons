@@ -40,7 +40,7 @@ mainContent.classList.remove("hidden")
 switchTab(tabName)
 }
 
-const gameCategories=["all","flash"]
+const gameCategories=["all","flash","html5"]
 const movieCategories=["all","comedy","horror","sci-fi"]
 
 // MacBook-specific optimizations
@@ -54,41 +54,26 @@ document.documentElement.classList.add("macos-optimized")
 }
 }
 
-const games=[
-{title:"1 on 1 Soccar",img:"images/1 on 1 Soccar.png",url:"games/1 on 1 Soccar/index.html",cat:"flash"},
-{title:"1 on 1 Tennis",img:"images/1 on 1 Tennis.png",url:"games/1 on 1 Tennis/index.html",cat:"all"},       
-{title:"1v1.lol",img:"images/1v1.lol.png",url:"games/1v1.lol/index.html",cat:"all"},
+const games=[    
 {title:"2 Minute Football",img:"images/2 minute football.png",url:"games/2 minute football/index.html",cat:"all"},
-{title:"3 Pandas",img:"images/3 Pandas.png",url:"games/3 Pandas/index.html",cat:"all"},
 {title:"3Dash",img:"images/3Dash.png",url:"games/3Dash/index.html",cat:"all"},
 {title:"12 Mini Battles",img:"images/12 Mini Battles.png",url:"games/12 Mini Battles/index.html",cat:"all"},
-{title:"60 Seconds Burger Run",img:"images/60 Seconds Burger Run.png",url:"games/60 Seconds Burger Run/index.html",cat:"all"},
 {title:"99Balls",img:"images/99Balls.png",url:"games/99Balls/index.html",cat:"all"},
 {title:"A Small World Cup",img:"images/A Small World Cup.png",url:"games/A Small World Cup/index.html",cat:"all"},
-{title:"Achievement Unlocked",img:"images/Achievement Unlocked.png",url:"games/Achievement Unlocked/index.html",cat:"all"},
-{title:"Achievement Unlocked 2",img:"images/Achievement Unlocked 2.png",url:"games/Achievement Unlocked 2/index.html",cat:"all"},
-{title:"Achievement Unlocked 3",img:"images/Achievement Unlocked 3.png",url:"games/Achievement Unlocked 3/index.html",cat:"all"},
 {title:"Adventure Capitalist",img:"images/Adventure Capitalist.png",url:"games/Adventure Capitalist/index.html",cat:"all"},
 {title:"Agar.io Lite",img:"images/Agar.io Lite.png",url:"games/Agar.io Lite/index.html",cat:"all"},
-{title:"Age of War",img:"images/Age of War.png",url:"games/Age of War/index.html",cat:"all"},
-{title:"Age of War 2",img:"images/Age of War 2.png",url:"games/Age of War 2/index.html",cat:"all"},
 {title:"Among Us",img:"images/Amongus.png",url:"games/Amongus/index.html",cat:"all"},
-{title:"Apple Worm",img:"images/Apple Worm.png",url:"games/Apple Worm/index.html",cat:"all"},
-{title:"Awesome Tanks 2",img:"images/Awesome Tanks 2.png",url:"games/Awesome Tanks 2/index.html",cat:"all"},
-{title:"Bad Ice Cream",img:"images/Bad Ice Cream.png",url:"games/Bad Ice Cream/index.html",cat:"all"},
 {title:"Bad Monday Simulator",img:"images/Bad Monday Simulator.png",url:"games/Bad Monday Simulator/index.html",cat:"all"},
 {title:"Baseball Bros",img:"images/BaseBall Bros.png",url:"games/BaseBall Bros/index.html",cat:"all"},
 {title:"Basket Random",img:"images/Basket Random.png",url:"games/Basket Random/index.html",cat:"all"},
 {title:"Bendy And The Ink Machine",img:"images/Bendy And The Ink Machine.png",url:"games/Bendy And The Ink Machine/index.html",cat:"all"},
-{title:"Big Ice Tower Tiny Square",img:"images/Big Ice Tower Tiny Square.png",url:"games/Big Ice Tower Tiny Square/index.html",cat:"all"},
+{title:"Big Ice Tower Tiny Square",img:"images/Big Ice Tower Tiny Square.png",url:"games/Big Ice Tower Tiny Square (ADS)/index.html",cat:"all"},
 {title:"Bad Time Simulator",img:"images/Sans.jpeg",url:"games/Bad Time Simulator/index.html",cat:"all"},
 {title:"Bart Blast",img:"images/Bart Blast.png",url:"games/Bart Blast/index.html",cat:"all"},
 {title:"Bitlife",img:"images/Bitlife.png",url:"games/Bitlife/index.html",cat:"all"},
 {title:"BitPlanes",img:"images/BitPlanes.png",url:"games/BitPlanes/index.html",cat:"all"},
-{title:"Bloxorz",img:"images/Bloxorz.png",url:"games/Bloxorz/index.html",cat:"all"},
 {title:"Bridge Race",img:"images/Bridge Race.png",url:"games/Bridge Race/index.html",cat:"all"},
 {title:"Brotato",img:"images/Brotato.png",url:"games/Brotato/index.html",cat:"all"},
-{title:"Buckshot Roulette",img:"images/Buckshot Roulette.png",url:"games/Buckshot Roulette/index.html",cat:"all"},
 {title:"Burgen Truck 201X",img:"images/Burgen Truck 201x.png",url:"games/Burgen Truck 201X/index.html",cat:"all"},
 {title:"Call Of Duty Black Ops",img:"images/Call Of Duty Black Ops.png",url:"games/Call Of Duty Black Ops/index.html",cat:"all"},
 {title:"Candy Crush",img:"images/Candy Crush.png",url:"games/Candy Crush/index.html",cat:"all"},
@@ -103,7 +88,6 @@ const games=[
 {title:"CS 1.6",img:"images/CS 1.6.png",url:"games/CS 1.6/index.html",cat:"all"},
 {title:"CS GO clicker",img:"images/CS GO clicker.png",url:"games/CS GO clicker/index.html",cat:"all"},
 {title:"CupHead",img:"images/CupHead.png",url:"games/CupHead/index.html",cat:"all"},
-{title:"Dad N Me",img:"images/Dad n Me.png",url:"games/Dad N me/index.html",cat:"all"},
 {title:"Death Run 3D",img:"images/Death Run 3D.png",url:"games/Death Run 3D/index.html",cat:"all"},
 {title:"Deltarune",img:"images/Deltarune.png",url:"games/Deltarune/index.html",cat:"all"},
 {title:"Doblox",img:"images/Doblox.png",url:"games/Doblox/index.html",cat:"multiplayer"},
@@ -112,7 +96,6 @@ const games=[
 {title:"Donkey Kong 64",img:"images/Donkey Kong 64.png",url:"games/Donkey Kong 64/index.html",cat:"all"},
 {title:"Doom",img:"images/Doom.png",url:"games/Doom/index.html",cat:"shooter"},
 {title:"Doom 64",img:"images/Doom 64.png",url:"games/Doom 64/index.html",cat:"shooter"},
-{title:"Douchebag Life",img:"images/DBL.png",url:"games/Douchebag life/index.html",cat:"all"},
 {title:"Dragon Ball Z legacy of goku",img:"images/Dragon Ball Z legacy of goku.png",url:"games/Dragon Ball Z legacy of goku/index.html",cat:"all"},
 {title:"Draw Climber",img:"images/Draw Climber.png",url:"games/Draw Climber/index.html",cat:"all"},
 {title:"Drift Boss",img:"images/Drift Boss.png",url:"games/Drift Boss/index.html",cat:"all"},
@@ -127,11 +110,9 @@ const games=[
 {title:"Five Nights at Freddys",img:"images/five nights at freddys.png",url:"games/Five Nights at Freddys/index.html",cat:"all"},
 {title:"Five Nights at Freddys 2",img:"images/five nights at freddys 2.png",url:"games/Five Nights at Freddys 2/index.html",cat:"all"},
 {title:"Five Nights at Freddys 3",img:"images/five nights at freddys 3.png",url:"games/Five Nights at Freddys 3/index.html",cat:"all"},
-{title:"Portal The Flash Verison",img:"images/Flash Portal.png",url:"games/Flash Portal/index.html",cat:"all"},
 {title:"Fluidism",img:"images/Fluidism.png",url:"games/Fluidism/index.html",cat:"all"},
 {title:"Friday Night Funkin",img:"images/Friday Night Funkin.png",url:"games/friday night funkin/index.html",cat:"all"},
 {title:"Fruit Ninja",img:"images/Fruit Ninja.png",url:"games/Fruit Ninja/index.html",cat:"all"},
-{title:"Gangsta Bean",img:"images/Gangsta Bean.png",url:"games/Gangsta Bean/index.html",cat:"all"},
 {title:"Geometry Dash",img:"images/Geometry dash.png",url:"games/Geometry Dash/index.html",cat:"all"},
 {title:"Geometry Vibes",img:"images/Geometry Vibes.png",url:"games/Geometry Vibe/index.html",cat:"all"},
 {title:"Getting Over It",img:"images/Getting Over It.png",url:"games/Getting Over It/index.html",cat:"all"},
@@ -148,7 +129,6 @@ const games=[
 {title:"Growden",img:"images/Grow a Garden.png",url:"games/Grow A Garden/index.html",cat:"all"},
 {title:"Half Life",img:"images/Half Life.png",url:"games/Half Life/index.html",cat:"all"},
 {title:"Handshakes",img:"images/Handshakes.png",url:"games/Handshakes/index.html",cat:"all"},
-{title:"Happy Wheels",img:"images/Happy Wheels.png",url:"games/Happy Wheels/index.html",cat:"all"},
 {title:"High Stakes",img:"images/High Stakes.png",url:"games/High Stakes/index.html",cat:"all"},
 {title:"Highway Racer",img:"images/Highway Racer.png",url:"games/highway racer/index.html",cat:"all"},
 {title:"Hollow Knight",img:"images/Hollow Knight.png",url:"games/Hollow Knight/index.html",cat:"all"},
@@ -175,14 +155,11 @@ const games=[
 {title:"Minecraft 1.12",img:"images/Minecraft 1.12.png",url:"games/Minecraft 1.12/index.html",cat:"all"},
 {title:"Minecraft Beta 1.3",img:"images/Minecraft Beta 1.3.png",url:"games/Minecraft Beta 1.3/index.html",cat:"all"},
 {title:"Monkey Mart",img:"images/Monkey Mart.png",url:"games/Monkey Mart/index.html",cat:"all"},
-{title:"Newgrounds Rumble",img:"images/Newgrounds Rumble.png",url:"games/Newgrounds Rumble/index.html",cat:"all"},
 {title:"Nubbys Number Factory",img:"images/Nubbys Number Factory.png",url:"games/Nubbys Number Factory/index.html",cat:"all"},
 {title:"Obby 99% Will Lose",img:"images/word.png",url:"games/Obby 99% Will Lose/index.html",cat:"all"},
 {title:"The Oregon Trail",img:"images/Oregon Trail.png",url:"games/Oregon Trail/index.html",cat:"all"},
 {title:"OvO",img:"images/OvO.png",url:"games/OvO/index.html",cat:"all"},
-{title:"Papas Pizzeria",img:"images/Papaz Pizzeria.png",url:"games/Papas Pizzeria/index.html",cat:"all"},
 {title:"Parking Fury",img:"images/Parking Fury.png",url:"games/Parking Fury/index.html",cat:"all"},
-{title:"Peggle",img:"images/Peggle.png",url:"games/Peggle/index.html",cat:"all"},
 {title:"Pixel Speedrun",img:"images/Pixel Speedrun.png",url:"games/Pixel Speedrun/index.html",cat:"all"},
 {title:"Pokemon Blue",img:"images/Pokemon Blue.png",url:"games/Pokemon Blue/index.html",cat:"all"},
 {title:"Pokemon Emerald",img:"images/Pokemon Emerald.png",url:"games/Pokemon Emerald/index.html",cat:"all"},
@@ -204,11 +181,9 @@ const games=[
 {title:"Steal a Brainrot",img:"images/Steal a Brainrot.png",url:"games/Steal a Brainrot/index.html",cat:"all"},
 {title:"Stickman Hook",img:"images/Stickman Hook.png",url:"games/Stickman Hook/index.html",cat:"all"},
 {title:"Stone Grass Mowing Simulator",img:"images/Stone Grass Mowing Simulator.png",url:"games/Stone Grass Mowing Simulator/index.html",cat:"all"},
-{title:"Sugar Sugar",img:"images/Sugar Sugar.png",url:"games/Sugar Sugar/index.html",cat:"all"},
 {title:"Super Mario 64",img:"images/mayrio.jpeg",url:"games/Super Mario 64/index.html",cat:"all"},
 {title:"Super Mario World",img:"images/Super Mario World.png",url:"games/Super Mario World/index.html",cat:"all"},
 {title:"Super Smash Bros",img:"images/super smash bros.jpg",url:"games/Super Smash Bros/index.html",cat:"all"},
-{title:"Super Smash Flash 2",img:"images/Super smash flash 2.png",url:"games/Super Smash Flash 2/index.html",cat:"all"},
 {title:"SuperCold",img:"images/SuperCold.png",url:"games/SuperCold/index.html",cat:"all"},
 {title:"SuperHot",img:"images/superhot.jpeg",url:"games/SuperHot/index.html",cat:"all"},
 {title:"Tag",img:"images/Tag.png",url:"games/Tag/index.html",cat:"all"},
@@ -216,9 +191,6 @@ const games=[
 {title:"Temple Run 2",img:"images/Temple Run 2.png",url:"games/Temple Run 2/index.html",cat:"all"},
 {title:"Ten Minutes Till Dawn",img:"images/Ten Minutes Till Dawn.png",url:"games/Ten Minutes Till Dawn/index.html",cat:"all"},
 {title:"Terraria",img:"images/Terraria.png",url:"games/Terraria/index.html",cat:"all"},
-{title:"The Binding Of Issac",img:"images/BOI.png",url:"games/The Binding Of Issac/index.html",cat:"all"},
-{title:"The Impossible Quiz",img:"images/The Impossible Quiz.jpeg",url:"games/The Impossible Quiz/index.html",cat:"all"},
-{title:"The Impossible Quiz 2",img:"images/The Impossible Quiz 2.png",url:"games/The Impossible Quiz 2/index.html",cat:"all"},
 {title:"Time Shooter 2",img:"images/Time Shooter 2.jpg",url:"games/Time Shooter 2/index.html",cat:"all"},
 {title:"Time Shooter 3",img:"images/time shooter 3.jpg",url:"games/Time Shooter 3/index.html",cat:"all"},
 {title:"Tunnel Rush",img:"images/Tunnel Rush.png",url:"games/Tunnel Rush/index.html",cat:"all"},
@@ -232,12 +204,8 @@ const games=[
 {title:"Wave Race 64",img:"images/Wave Race 64.png",url:"games/Wave Race 64/index.html",cat:"all"},
 {title:"We Become What We Behold",img:"images/We Become What We Behold.png",url:"games/We Become What We Behold/index.html",cat:"all"},
 {title:"Web Fishing",img:"images/Web Fishing.png",url:"games/Web Fishing/index.html",cat:"all"},
-{title:"Worlds Hardest Game",img:"images/Worlds Hardest Game.png",url:"games/Worlds Hardest Game/index.html",cat:"all"},
-{title:"Worlds Hardest Game 2",img:"images/Worlds Hardest Game 2.png",url:"games/Worlds Hardest Game 2/index.html",cat:"all"},
-{title:"Worlds Hardest Game 3",img:"images/Worlds Hardest Game 3.png",url:"games/Worlds Hardest Game 3/index.html",cat:"all"},
-{title:"Worlds Hardest Game 4",img:"images/Worlds Hardest Game 4.png",url:"games/Worlds Hardest Game 4/index.html",cat:"all"},
 {title:"Worst Time Simulator",img:"images/Worst Time Simulator.png",url:"games/Worst Time Simulator/index.html",cat:"all"},
-{title:"You VS 100 Skibidi Toilets",img:"images/you vs 100 skibidi.png",url:"games/You vs 100 Skibidi/index.html",cat:"all"}
+{title:"You VS 100 Skibidi Toilets",img:"images/you vs 100 skibidi.png",url:"games/You vs 100 skibidi/index.html",cat:"all"}
 ]
 
 const movies=[
