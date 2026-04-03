@@ -14,6 +14,7 @@ const splashTexts = [
     "movies with help from cortlin",
     "no this isnt hacking",
     "FAHHHHHHH",
+    "Microsoft Ruined Github",
 ]
 
 try{
