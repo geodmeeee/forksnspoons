@@ -109,6 +109,7 @@ const games=[
 {title:"Spacebar Clicker",img:"images/Spacebar Clicker.png",url:"games/Spacebar Clicker/index.html",cat:"all"},
 {title:"Tag",img:"images/Tag.png",url:"games/Tag/index.html",cat:"all"},
 {title:"Tanuki Sunset",img:"images/tanuki sunset.jpg",url:"games/Tanuki Sunset/index.html",cat:"all"},
+{title:"Time Shooter 2",img:"images/Time Shooter 2.jpg",url:"games/Time Shooter 2/index.html",cat:"all"},
 {title:"Ultrakill",img:"images/Ultrakill.png",url:"games/ultrakill/index.html",cat:"all"},
 {title:"We Become What We Behold",img:"images/We Become What We Behold.png",url:"games/We Become What We Behold/index.html",cat:"all"},
 ]
