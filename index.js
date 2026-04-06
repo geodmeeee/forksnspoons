@@ -118,7 +118,7 @@ const games=[
 ]
 
 const movies=[
-{title:"Shrek",img:"images/Shrek.png",url:"movies/shrek/index.html",cat:"all"}
+{title:"Shrek",img:"images/Shrek.png",url:"movies/shrek/index.html",cat:"all"},
 {title:"The Lego Ninjago Movie",img:"images/ninjago.png",url:"movies/Ninjago movie/index.html",cat:"all"}
 ]
 
