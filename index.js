@@ -58,7 +58,7 @@ mainContent.classList.remove("hidden")
 switchTab(tabName)
 }
 
-const gameCategories=["all","flash","html5"]
+const gameCategories=["all","flash","html5",""]
 const movieCategories=["all","comedy","horror","sci-fi"]
 
 // MacBook-specific optimizations
@@ -78,6 +78,7 @@ const games=[
 {title:"99Balls",img:"images/99Balls.png",url:"games/99Balls/index.html",cat:"all"},
 {title:"2048",img:"images/2048.png",url:"games/2048/index.html",cat:"all"},
 {title:"A Small World Cup",img:"images/A Small World Cup.png",url:"games/A Small World Cup/index.html",cat:"all"},
+{title:"Ace Attorney (all Games) (DS)",img:"images/Ace Attorney.png",url:"games/Ace Attorney (all games) (NDS)/index.html",cat:"all"},
 {title:"Agar.io Lite",img:"images/Agar.io Lite.png",url:"games/Agar.io Lite/index.html",cat:"all"},
 {title:"Bad Ice Cream",img:"images/Bad Ice Cream.png",url:"games/Bad Ice Cream/index.html",cat:"all"},
 {title:"Basket Random",img:"images/Basket Random.png",url:"games/Basket Random/index.html",cat:"all"},
