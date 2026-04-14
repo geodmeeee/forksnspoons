@@ -131,6 +131,7 @@ const games=[
 {title:"Rainbow Road Polytrack",img:"images/Rainbow Road Polytrack.png",url:"games/Polytrack but mario/index.html",cat:"all"},
 {title:"Retro Bowl",img:"images/Retro Bowl.png",url:"games/Retro Bowl/index.html",cat:"all"},
 {title:"Riddle School",img:"images/Riddle School.png",url:"games/Riddle School/index.html",cat:"all"},
+{title:"Riddle School 2",img:"images/Riddle School 2.png",url:"games/Riddle School 2/index.html",cat:"all"},
 {title:"Silk",img:"images/Silk.png",url:"games/Silk/index.html",cat:"all"},
 {title:"Slope Plus",img:"images/Slope Plus.png",url:"games/Slope Plus/index.html",cat:"all"},
 {title:"Smash Karts",img:"images/Smash Karts.jpg",url:"games/Smash Karts/index.html",cat:"all"},
