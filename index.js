@@ -140,6 +140,7 @@ const games=[
 {title:"Tag",img:"images/Tag.png",url:"games/Tag/index.html",cat:"all"},
 {title:"Tanuki Sunset",img:"images/tanuki sunset.jpg",url:"games/Tanuki Sunset/index.html",cat:"all"},
 {title:"Ten Minutes Till Dawn",img:"images/Ten Minutes Till Dawn.png",url:"games/Ten Minutes Till Dawn/index.html",cat:"all"},
+{title:"The Binding Of Issac",img:"images/The Binding Of Issac.png",url:"games/The Binding Of Issac/index.html",cat:"all"},
 {title:"Time Shooter 2",img:"images/Time Shooter 2.jpg",url:"games/Time Shooter 2/index.html",cat:"all"},
 {title:"Time Shooter 3",img:"images/Time Shooter 3.png",url:"games/Time Shooter 3/index.html",cat:"all"},
 {title:"Ultrakill",img:"images/Ultrakill.png",url:"games/ultrakill/index.html",cat:"all"},
