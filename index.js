@@ -103,6 +103,7 @@ const games=[
 {title:"CupHead",img:"images/CupHead.png",url:"games/Cuphead/index.html",cat:"all"},
 {title:"Doge Miner",img:"images/Doge Miner.png",url:"games/Doge Miner/index.html",cat:"all"},
 {title:"Doom 2",img:"images/Doom 2.png",url:"games/Doom 2/public/index.html",cat:"all"},
+{title:"Draw The Hill",img:"images/Draw The Hill.png",url:"games/Draw The Hill/index.html",cat:"all"},
 {title:"Drift Boss",img:"images/Drift Boss.png",url:"games/Drift Boss/index.html",cat:"all"},
 {title:"Drive Mad",img:"images/Drive Mad.png",url:"games/Drive Mad/index.html",cat:"all"},
 {title:"Five Nights At Epsteins",img:"images/Five Nights At Epsteins.png",url:"games/Five Nights At Epsteins/index.html",cat:"all"},
