@@ -115,6 +115,7 @@ const games=[
 {title:"Duck Life 4",img:"images/Duck Life 4.png",url:"games/Duck Life 4/index.html",cat:"all"},
 {title:"Five Nights At Epsteins",img:"images/Five Nights At Epsteins.png",url:"games/Five Nights At Epsteins/index.html",cat:"all"},
 {title:"Fluidism",img:"images/Fluidism.png",url:"games/Fluidism/index.html",cat:"all"},
+{title:"Funny Shooter",img:"images/Funny Shooter.png",url:"games/Funny Shooter/index.html",cat:"all"},
 {title:"Geometry Dash",img:"images/GD.png",url:"games/Geometry Dash/index.html",cat:"all"},
 {title:"Getaway Shootout",img:"images/Getaway Shootout.png",url:"games/Getaway Shootout/index.html",cat:"all"},
 {title:"Gladihoppers",img:"images/Gladihoppers.png",url:"games/Gladihoppers/index.html",cat:"all"},
