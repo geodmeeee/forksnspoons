@@ -20,6 +20,7 @@ const splashTexts = [
     "All My Homies Hate Flash",
     "Did you know theres 13 of these things",
     "Koas a Chud",
+    "Logan Boyers a simp",
 ]
 
 try{
