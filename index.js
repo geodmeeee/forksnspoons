@@ -18,9 +18,10 @@ const splashTexts = [
     "New UI 2027 guys",
     "Use The Comment Tab",
     "All My Homies Hate Flash",
-    "Did you know theres 13 of these things",
+    "Did you know theres 16 of these things",
     "Koas a Chud",
     "Logan Boyers a simp",
+    "olivers a Nerd",
 ]
 
 try{
