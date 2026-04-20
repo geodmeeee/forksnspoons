@@ -76,7 +76,8 @@ document.documentElement.classList.add("macos-optimized")
 }
 }
 
-const games=[    
+const games=[
+{title:"1v1.lol",img:"images/1v1.lol.png",url:"games/1v1.lol/index.html",cat:"all"},
 {title:"2 Minute Football",img:"images/2 minute football.png",url:"games/2 minute football/index.html",cat:"all"},
 {title:"3D.city",img:"images/3D.city.png",url:"games/3D.city/index.html",cat:"all"},
 {title:"99Balls",img:"images/99Balls.png",url:"games/99Balls/index.html",cat:"all"},
