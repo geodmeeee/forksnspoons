@@ -23,6 +23,7 @@ const splashTexts = [
     "Logan Boyers a simp",
     "olivers a Nerd",
     "BirdBrain",
+    "Stupid Github Codespaces",
 ]
 
 try{
@@ -162,11 +163,9 @@ const games=[
 {title:"Riddle School 3",img:"images/Riddle School 3.png",url:"games/Riddle School 3/index.html",cat:"all"},
 {title:"Riddle School 4",img:"images/Riddle School 4.png",url:"games/Riddle School 4/index.html",cat:"all"},
 {title:"Riddle School 5",img:"images/Riddle School 5.png",url:"games/Riddle School 5/index.html",cat:"all"},
-{title:"Run Rich 3D",img:"images/Riddle School 5.png",url:"games/Run Rich 3D/index.html",cat:"all"},
 {title:"Silk",img:"images/Silk.png",url:"games/Silk/index.html",cat:"all"},
 {title:"Slope Plus",img:"images/Slope Plus.png",url:"games/Slope Plus/index.html",cat:"all"},
 {title:"Slow Roads",img:"images/Slow Roads.png",url:"games/Slow Roads/index.html",cat:"all"},
-{title:"Smash Karts",img:"images/Smash Karts.jpg",url:"games/Smash Karts/index.html",cat:"all"},
 {title:"Spacebar Clicker",img:"images/Spacebar Clicker.png",url:"games/Spacebar Clicker/index.html",cat:"all"},
 {title:"Stickman Hook",img:"images/Stickman Hook.png",url:"games/Stickman Hook/index.html",cat:"all"},
 {title:"Tag",img:"images/Tag.png",url:"games/Tag/index.html",cat:"all"},
