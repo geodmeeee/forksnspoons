@@ -175,6 +175,7 @@ const games=[
 {title:"Snow Rider 3D",img:"images/Snow Rider 3D.png",url:"games/Snow Rider 3D/index.html",cat:"all"},
 {title:"Spacebar Clicker",img:"images/Spacebar Clicker.png",url:"games/Spacebar Clicker/index.html",cat:"all"},
 {title:"Stickman Hook",img:"images/Stickman Hook.png",url:"games/Stickman Hook/index.html",cat:"all"},
+{title:"Super Mario 64",img:"images/Super Mario 64.png",url:"games/Super Mario 64/index.html",cat:"all"},
 {title:"Tag",img:"images/Tag.png",url:"games/Tag/index.html",cat:"all"},
 {title:"Tanuki Sunset",img:"images/tanuki sunset.jpg",url:"games/Tanuki Sunset/index.html",cat:"all"},
 {title:"Temple Run 2",img:"images/Temple Run 2.png",url:"games/Temple Run 2/index.html",cat:"all"},
