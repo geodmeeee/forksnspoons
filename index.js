@@ -190,6 +190,7 @@ const games=[
 {title:"Wordle",img:"images/Wordle.png",url:"games/Wordle/index.html",cat:"all"},
 {title:"Worlds Hardest Game",img:"images/Worlds Hardest Game.png",url:"games/Worlds Hardest Game/index.html",cat:"all"},
 {title:"Worlds Hardest Game 2",img:"images/Worlds Hardest Game 2.png",url:"games/Worlds Hardest Game 2/index.html",cat:"all"},
+{title:"Worlds Hardest Game 3",img:"images/Worlds Hardest Game 3.png",url:"games/Worlds Hardest Game 3/index.html",cat:"all"},
 ]
 
 const movies=[
