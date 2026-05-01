@@ -182,6 +182,7 @@ const games=[
 {title:"Stick Merge",img:"images/Stick Merge.png",url:"games/Stick Merge/index.html",cat:"all"},
 {title:"Stickman Hook",img:"images/Stickman Hook.png",url:"games/Stickman Hook/index.html",cat:"all"},
 {title:"Super Mario 64",img:"images/Super Mario 64.png",url:"games/Super Mario 64/index.html",cat:"all"},
+{title:"Super Star Car",img:"images/Super Star Car.png",url:"games/Super Star Car/index.html",cat:"all"},
 {title:"Tag",img:"images/Tag.png",url:"games/Tag/index.html",cat:"all"},
 {title:"Tanuki Sunset",img:"images/tanuki sunset.jpg",url:"games/Tanuki Sunset/index.html",cat:"all"},
 {title:"Temple Run 2",img:"images/Temple Run 2.png",url:"games/Temple Run 2/index.html",cat:"all"},
