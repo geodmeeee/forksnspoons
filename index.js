@@ -195,6 +195,7 @@ const games=[
 {title:"Temple Run 2",img:"images/Temple Run 2.png",url:"games/Temple Run 2/index.html",cat:"all"},
 {title:"Ten Minutes Till Dawn",img:"images/Ten Minutes Till Dawn.png",url:"games/Ten Minutes Till Dawn/index.html",cat:"all"},
 {title:"The Binding Of Issac",img:"images/The Binding Of Issac.png",url:"games/The Binding Of Issac/index.html",cat:"all"},
+{title:"There Is No Game",img:"images/There Is No Game.png",url:"games/There Is No Game/index.html",cat:"all"},
 {title:"Time Shooter 2",img:"images/Time Shooter 2.jpg",url:"games/Time Shooter 2/index.html",cat:"all"},
 {title:"Time Shooter 3",img:"images/Time Shooter 3.png",url:"games/Time Shooter 3/index.html",cat:"all"},
 {title:"Tiny Fishing",img:"images/Tiny Fishing.png",url:"games/Tiny Fishing/index.html",cat:"all"},
