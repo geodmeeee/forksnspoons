@@ -153,6 +153,7 @@ const games=[
 {title:"Super Mario 64",img:"images/Super Mario 64.png",url:"games/Super Mario 64/index.html",cat:"all"},
 {title:"Super Star Car",img:"images/Super Star Car.png",url:"games/Super Star Car/index.html",cat:"all"},
 {title:"Survival Karts",img:"images/Survival Karts.png",url:"games/Survival Karts/index.html",cat:"all"},
+{title:"Survival Race",img:"images/Survival Race.png",url:"games/Survival Race/index.html",cat:"all"},
 {title:"Tag",img:"images/Tag.png",url:"games/Tag/index.html",cat:"all"},
 {title:"Tanuki Sunset",img:"images/tanuki sunset.jpg",url:"games/Tanuki Sunset/index.html",cat:"all"},
 {title:"Temple Run 2",img:"images/Temple Run 2.png",url:"games/Temple Run 2/index.html",cat:"all"},
