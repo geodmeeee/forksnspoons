@@ -268,13 +268,20 @@ if(tab==="extras"){
 grid.innerHTML=`
 <div style="grid-column: 1/-1; text-align: center; padding: 60px 20px;">
 <h2 style="color: var(--accent); margin-top: 0;">Extras</h2>
-<div style="max-width: 500px; margin: 40px auto;">
-  <div style="background: var(--card); padding: 30px; border-radius: 16px; border: 1px solid rgba(124, 92, 255, 0.2);">
+<div style="max-width: 1000px; margin: 40px auto; display: flex; gap: 30px; justify-content: center; flex-wrap: wrap;">
+  <div style="background: var(--card); padding: 30px; border-radius: 16px; border: 1px solid rgba(124, 92, 255, 0.2); flex: 1; min-width: 280px;">
     <h3 style="color: var(--accent); margin-top: 0;">Share Your Feedback</h3>
     <a href="https://docs.google.com/document/d/1mFn2eMQwayVZQMeotMlZYchbJbCDto_UTTi0I1FvcwM/edit?usp=sharing" target="_blank" style="display: inline-block; margin-top: 20px; padding: 12px 24px; background: var(--accent); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
       Open Google Doc
     </a>
     <p style="color: #a0aec0; font-size: 0.9rem; margin-top: 20px;">Google Doc YAY</p>
+  </div>
+  <div style="background: var(--card); padding: 30px; border-radius: 16px; border: 1px solid rgba(124, 92, 255, 0.2); flex: 1; min-width: 280px;">
+    <h3 style="color: var(--accent); margin-top: 0;">Report Issue</h3>
+    <a href="https://forms.gle/iGTWkFvDJjGGeWeN8" target="_blank" style="display: inline-block; margin-top: 20px; padding: 12px 24px; background: var(--accent); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
+      Open Google Form
+    </a>
+    <p style="color: #a0aec0; font-size: 0.9rem; margin-top: 20px;">Found a bug? Let me know!</p>
   </div>
 </div>
 </div>
