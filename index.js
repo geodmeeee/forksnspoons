@@ -38,6 +38,7 @@ const games=[
 {title:"1v1.lol",img:"images/1v1.lol.png",url:"games/1v1.lol/index.html",cat:"all"},
 {title:"2 Minute Football",img:"images/2 minute football.png",url:"games/2 minute football/index.html",cat:"all"},
 {title:"3D.city",img:"images/3D.city.png",url:"games/3D.city/index.html",cat:"all"},
+{title:"8 Ball Billiards Classic",img:"images/8 Ball Classic.png",url:"games/8 Ball Classic/index.html",cat:"all"},
 {title:"99Balls",img:"images/99Balls.png",url:"games/99Balls/index.html",cat:"all"},
 {title:"2048",img:"images/2048.png",url:"games/2048/index.html",cat:"all"},
 {title:"A Small World Cup",img:"images/A Small World Cup.png",url:"games/A Small World Cup/index.html",cat:"all"},
