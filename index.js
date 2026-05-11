@@ -181,6 +181,7 @@ const games=[
 {title:"Vex 4",img:"images/Vex 4.png",url:"games/Vex 4/index.html",cat:"all"},
 {title:"Vex 5",img:"images/Vex 5.png",url:"games/Vex 5/index.html",cat:"all"},
 {title:"Vex 6",img:"images/Vex 6.png",url:"games/Vex 6/index.html",cat:"all"},
+{title:"Vex 8",img:"images/Vex 8.png",url:"games/Vex 8/index.html",cat:"all"},
 {title:"We Become What We Behold",img:"images/We Become What We Behold.png",url:"games/We Become What We Behold/index.html",cat:"all"},
 {title:"Wheely 2",img:"images/Wheely 2.png",url:"games/Wheely 2/index.html",cat:"all"},
 {title:"Wordle",img:"images/Wordle.png",url:"games/Wordle/index.html",cat:"all"},
