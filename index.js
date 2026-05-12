@@ -114,6 +114,7 @@ const games=[
 {title:"House Of Hazards",img:"images/House Of Hazards.png",url:"games/House Of Hazards/index.html",cat:"all"},
 {title:"Icy Dodo",img:"images/Icy Dodo.png",url:"games/Icy Dodo/index.html",cat:"all"},
 {title:"Iron Lung",img:"images/Iron Lung.png",url:"games/Iron Lung/index.html",cat:"all"},
+{title:"Jelly Mario",img:"images/Jelly Mario.png",url:"games/Jelly Mario/index.html",cat:"all"},
 {title:"Johnny Upgrade",img:"images/Johnny Upgrade.png",url:"games/Johnny Upgrade/index.html",cat:"all"},
 {title:"Jumping Shell",img:"images/Jumping Shell.png",url:"games/Jumping Shell/index.html",cat:"all"},
 {title:"Kour.io",img:"images/Kour.png",url:"games/Kour.io/index.html",cat:"all"},
