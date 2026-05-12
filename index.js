@@ -608,6 +608,13 @@ function full(){
 frame?.requestFullscreen?.()
 }
 
+function openInNewTab(){
+const gameUrl = frame.src
+if(gameUrl){
+window.open(gameUrl, '_blank')
+}
+}
+
 // Toggle secret menu with F6 and add Mac keyboard shortcuts
 document.addEventListener("keydown",e=>{
 if(e.key==="F6"){
