@@ -75,6 +75,7 @@ const games=[
 {title:"Crazy Cattle 3D",img:"images/Crazy Cattle 3D.png",url:"games/Crazy Cattle 3D/index.html",cat:"all"},
 {title:"CS GO Clicker",img:"images/CS GO clicker.png",url:"games/CS GO clicker/index.html",cat:"all"},
 {title:"Cyber Cars Punk Racing",img:"images/Cyber Cars Punk Racing.png",url:"games/Cyber Cars Punk Racing/index.html",cat:"all"},
+{title:"Dad N Me",img:"images/Dad N Me.png",url:"games/Dad N Me/index.html",cat:"all"},
 {title:"Death Run 3D",img:"images/Death Run 3D.png",url:"games/Death Run 3D/index.html",cat:"all"},
 {title:"Doge Miner",img:"images/Doge Miner.png",url:"games/Doge Miner/index.html",cat:"all"},
 {title:"Dont You Lecture Me With Your 30 Dollar Website",img:"images/Dont You Lecture Me About Your 30 Dollar Website.png",url:"games/Dont You Lecture Me About Your 30 Dollar Website/index.html",cat:"all"},
