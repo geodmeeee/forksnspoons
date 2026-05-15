@@ -133,6 +133,7 @@ const games=[
 {title:"Minecraft 1.8.8",img:"images/Minecraft 1.8.8.png",url:"games/Minecraft 1.8.8/index.html",cat:"all"},
 {title:"Minecraft 1.12",img:"images/Minecraft 1.12.png",url:"games/Minecraft 1.12/index.html",cat:"all"},
 {title:"Minecraft Beta 1.3",img:"images/Minecraft Beta 1.3.png",url:"games/Minecraft Beta 1.3/index.html",cat:"all"},
+{title:"Mini Paint",img:"images/Mini Paint.png",url:"games/Mini Paint/index.html",cat:"all"},
 {title:"Monster Tracks",img:"images/Monster Tracks.png",url:"games/Monster Tracks/index.html",cat:"all"},
 {title:"Moto Maniac 2",img:"images/Moto Maniac 2.png",url:"games/Moto Maniac 2/index.html",cat:"all"},
 {title:"Moto X3M",img:"images/Moto X3M.png",url:"games/Moto X3M/index.html",cat:"all"},
