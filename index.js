@@ -170,6 +170,7 @@ const games=[
 {title:"Rooftop Snipers 2",img:"images/Rooftop Snipers 2.png",url:"games/Rooftop Snipers 2/index.html",cat:"all"},
 {title:"Run 2",img:"images/Run 2.png",url:"games/Run 2/index.html",cat:"all"},
 {title:"Sandtris",img:"images/Sandtris.png",url:"games/Sandtris/index.html",cat:"all"},
+{title:"Scrap Metal 3 Infernal Trap",img:"images/Scrap Metal 3.png",url:"games/Scrap Metal 3/index.html",cat:"all"},
 {title:"Short Ride",img:"images/Short Ride.png",url:"games/Short Ride/index.html",cat:"all"},
 {title:"Silk",img:"images/Silk.png",url:"games/Silk/index.html",cat:"all"},
 {title:"Slope Plus",img:"images/Slope Plus.png",url:"games/Slope Plus/index.html",cat:"all"},
