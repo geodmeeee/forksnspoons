@@ -65,6 +65,7 @@ const games=[
 {title:"Bitlife",img:"images/Bitlife.png",url:"games/Bitlife/index.html",cat:"all"},
 {title:"BitPlanes",img:"images/BitPlanes.png",url:"games/BitPlanes/index.html",cat:"all"},
 {title:"Block Blast",img:"images/Block Blast.png",url:"games/Block Blast/index.html",cat:"all"},
+{title:"Blood Money",img:"images/Blood Money.png",url:"games/Blood Money/index.html",cat:"all"},
 {title:"Bloons TD 1",img:"images/Bloons TD 1.png",url:"games/Bloons TD 1/index.html",cat:"all"},
 {title:"Bloons TD 2",img:"images/Bloons TD 2.png",url:"games/Bloons TD 2/index.html",cat:"all"},
 {title:"Bloons TD 3",img:"images/Bloons TD 3.png",url:"games/Bloons TD 3/index.html",cat:"all"},
