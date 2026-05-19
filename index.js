@@ -99,7 +99,7 @@ const games=[
 {title:"Duck Life 4",img:"images/Duck Life 4.png",url:"games/Duck Life 4/index.html",cat:"all"},
 {title:" The Fancy Pants Adventure",img:"images/Fancy Pants Adventure.png",url:"games/Fancy Pants Adventure/index.html",cat:"all"},
 {title:"FireBoy And WaterGirl 2 In The Light Temple",img:"images/Fire Boy Water Girl 2.png",url:"games/Fireboy And Water Girl 2 Light temple/index.html",cat:"all"},
-{title:"FireBoy And WaterGirl 3 Ice Temple",img:"images/fireboy and watergirl 3.png",url:"games/Fireboy And Watergirl 3/index.html",cat:"all"},
+{title:"FireBoy And WaterGirl 3 In The Ice Temple",img:"images/fireboy and watergirl 3.png",url:"games/Fireboy And Watergirl 3/index.html",cat:"all"},
 {title:"Five Nights At Epsteins",img:"images/Five Nights At Epsteins.png",url:"games/Five Nights At Epsteins/index.html",cat:"all"},
 {title:"Flick Goal",img:"images/Flick Goal.png",url:"games/Flick Goal/index.html",cat:"all"},
 {title:"Fluidism",img:"images/Fluidism.png",url:"games/Fluidism/index.html",cat:"all"},
