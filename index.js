@@ -215,6 +215,7 @@ const games=[
 {title:"Vex 5",img:"images/Vex 5.png",url:"games/Vex 5/index.html",cat:"all"},
 {title:"Vex 6",img:"images/Vex 6.png",url:"games/Vex 6/index.html",cat:"all"},
 {title:"Vex 8",img:"images/Vex 8.png",url:"games/Vex 8/index.html",cat:"all"},
+{title:"Virtual Piano",img:"images/Virtual Piano.png",url:"games/Virtual Piano/index.html",cat:"all"},
 {title:"We Become What We Behold",img:"images/We Become What We Behold.png",url:"games/We Become What We Behold/index.html",cat:"all"},
 {title:"Wheely 2",img:"images/Wheely 2.png",url:"games/Wheely 2/index.html",cat:"all"},
 {title:"Wheely 4",img:"images/Wheely 4.png",url:"games/Wheely 4/index.html",cat:"all"},
