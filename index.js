@@ -203,6 +203,7 @@ const games=[
 {title:"The Impossible Quiz 2",img:"images/The Impossible Quiz 2.png",url:"games/The Impossible Quiz 2/index.html",cat:"all"},
 {title:"There Is No Game",img:"images/There Is No Game.png",url:"games/There Is No Game/index.html",cat:"all"},
 {title:"This Is The Only Level",img:"images/This Is The Only Level.png",url:"games/This Is The Only Level/index.html",cat:"all"},
+{title:"Thumb Fighter",img:"images/Thumb Fighter.png",url:"games/Thumb Fighter/index.html",cat:"all"},
 {title:"Time Shooter 2",img:"images/Time Shooter 2.jpg",url:"games/Time Shooter 2/index.html",cat:"all"},
 {title:"Time Shooter 3",img:"images/Time Shooter 3.png",url:"games/Time Shooter 3/index.html",cat:"all"},
 {title:"Tiny Fishing",img:"images/Tiny Fishing.png",url:"games/Tiny Fishing/index.html",cat:"all"},
